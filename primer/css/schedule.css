@@ -1,0 +1,104 @@
+/* body schedule */
+.schedule_body
+{
+    background-color:#f2f2f2;
+    margin-top:30px;
+}
+
+.schedule_wrapper
+{
+    min-width:950px;
+    width:65%;
+    display:flex;
+    position:relative;
+    margin:0 auto;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    align-content: center;
+}
+.buttons
+{    
+    font-family:'Open Sans',sans-serif;
+    font-size:20px;
+    font-weight:600;
+    list-style:none;
+    margin-bottom:0;
+    padding:0;
+    display: flex;
+    flex-wrap: wrap;
+    width:100%;
+}
+.buttons li
+{
+    margin:0;
+    flex-grow:1;
+    background-color: #c0c0c0;
+    -webkit-text-size-adjust: 100%;
+    box-sizing: border-box;
+    display:inline-block;
+    height:52px;
+    display:flex;    
+    align-items: center;
+    justify-content: center;
+}
+.buttons li:hover
+{
+    background-color: #ffffff;
+    cursor:pointer;
+}
+.active
+{
+    cursor:default !important;
+    background-color: #ffffff !important;
+}
+.table
+{
+    flex:1;
+    font-size:16px;
+    font-family:'Open Sans',sans-serif;
+    border-spacing: 0px;
+    padding:30px 15px;
+    height:650px;
+    background-color: #ffffff;
+    margin-bottom:20px;
+}
+.day_name td
+{
+    border-top:none;
+    border-left:none;
+    border-right:none;
+    background-color: #f1c50e;
+    font-weight: 700;
+    padding:10px;
+}
+.time 
+{
+    border:none;
+}
+tr td
+{
+    line-height: 1.85;
+    text-align:center;
+    padding:10px;
+    background-color: #e5e5e5;
+    border-left:1px solid #404040;
+    border-top:1px solid #404040;
+}
+tr td:last-child:not(.day_name td)
+{
+    border-right:1px solid #404040;
+}
+tr td:first-child
+{
+    background-color: #f1c50e;
+}
+.last
+{
+    border-bottom:1px solid #404040;
+}
+tr:first-child td:first-child
+{
+    border:none;
+    background-color: #f5d654;
+}

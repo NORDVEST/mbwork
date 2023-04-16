@@ -1,0 +1,129 @@
+body {
+	font-family: Inter;
+	background-color: #ECEDF1;
+	overflow-x: hidden; 
+}
+
+table{
+	background-color: #FDFAF5;
+	border-radius: 6px;
+}
+
+.footerdark{
+	margin-top: 5%;
+	margin-left: -3%;
+	width: 110%;
+	position: absolute;
+	background: black;
+}
+
+.mailemail{
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 48px;
+	line-height: 58px;
+	color: #FFFFFF;
+}
+
+.svyaz{
+	margin-left: -40%;
+	background: #FFFFFF;
+	border-radius: 10px;
+	width: 245px;
+	height: 62px;
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 21px;
+	line-height: 25px;
+	color: #002033;
+}
+
+.buttonvktg{
+	background: #FFFFFF;
+	border-radius: 10px;
+	width: 77px;
+	height: 77px;
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 28px;
+	line-height: 34px;
+	color: #000000;
+}
+
+.backcolor{
+	background: #F5F5F5;
+}
+
+#whiterect{
+	width: 77%;
+	margin-right: 10%;
+	margin-top: -1%;
+	background: #FFFFFF;
+	border-radius: 38px;
+}
+
+#grayrect{
+	width: 603px;
+	height: 736px;
+	margin-top: -8%;
+	width: 30%;
+	margin-left: 40%;
+	background: #EDEDED;
+	border-radius: 30px;
+}
+
+.tree3{
+	margin-top: 3%;
+	width: 498px;
+	height: 658px;
+}
+
+.vseprosto{
+	margin-top: 1%;
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 70px;
+	line-height: 85px;
+	color: #000000;
+}
+
+.ecoprojmoscow{
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 27px;
+	line-height: 33px;
+	color: #000000;
+}
+
+.ecoprojtext{
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 25px;
+	line-height: 30px;
+	color: #000000;
+}
+
+#Podrobnee{
+	margin-top: 10%;
+	margin-bottom: 5%;
+	border: 0;
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 27px;
+	line-height: 33px;
+	color: #000000;
+	width: 286px;
+	height: 93px;
+	background: #C7FF4F;
+	border-radius: 67px;
+}
+
+a {text-decoration: none; color: #002033;}
+a:hover {text-decoration: none; color: #002033;}

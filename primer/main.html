@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <style type="text/css">
+        @import url(css/header_footer.css);
+        @import url(css/main.css);
+    </style>
+    <link id="u-theme-google-font" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i|Open+Sans:300,300i,400,400i,500,500i,600,600i,700,700i,800,800i">
+    <title>Главная</title>
+    <meta charset="UTF-8">
+</head>
+<body>
+<section class = 'main_header'>
+    <div class = 'main_container'>
+        <div class = 'header_wrapper'>
+            <div class = 'logo'>
+                <p>Группа 207</p>
+            </div>
+            <ul class = 'navigation'>
+                <li class="nav_item"><a style="color:#478ac9 !important">Главная</a></li>
+                <li class="nav_item"><a href="schedule.html">Актуальное расписание</a></li>
+                <li class="nav_item"><a href="materials.html">Учебно-методические материалы</a></li>
+            </ul>
+        </div>
+    </div>
+</section>
+<section class = 'main_body'>
+    <div class = 'main_container'>
+        <div class ="body_container">
+            <img class = 'image_body' src = 'img/people_1.jpg'>
+            <div class = 'subject_info'>
+                <div class="subject_item" style="background-color:#858e99">
+                    <h3 class="subject_name">Математическая статистика</h3>
+                    <p class="subject_notice">Дедлайн по сдачи всех работ до конца мая. Список работ можно узнать у старосты</p>
+                </div>
+                <div class="subject_item" style="background-color:#f5d654">
+                    <h3 class="subject_name">Растениеводство</h3>
+                    <p class="subject_notice">Заполнить рабочую тетрадь на страницах 273-287, письменно ответить на вопросы на странице 188.</p>
+                </div>
+                <div class="subject_item" style="background-color:#e68387">
+                    <h3 class="subject_name">Математика</h3>
+                    <p class="subject_notice">Подготовиться к контрольной работе, к 07.12, выполнить задания по практикуму на странице 187.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<div class="slider">
+    <div class = 'arrows'>
+        <div class="arrow_left" onclick="previousSlide()">
+        </div>
+        <div class="arrow_right" onclick="nextSlide()">
+        </div>
+    </div>
+    <ul class="slides">
+      <li class="slide showing"><h1>Coaching Services</h1><p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Alias, inventore ea nemo temporibus, vero quos laboriosam laborum voluptatem cumque provident atque, velit quibusdam?</p></li>
+      <li class="slide"><h1>Coaching Services</h1><p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Alias, inventore ea nemo temporibus, vero quos laboriosam laborum voluptatem cumque provident atque, velit quibusdam?</p></li>
+      <li class="slide"><h1>Coaching Services</h1><p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Alias, inventore ea nemo temporibus, vero quos laboriosam laborum voluptatem cumque provident atque, velit quibusdam?</p></li>
+      <li class="slide"><h1>Coaching Services</h1><p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Alias, inventore ea nemo temporibus, vero quos laboriosam laborum voluptatem cumque provident atque, velit quibusdam?</p></li>
+    </ul>
+    <ul class="dots">
+      <li class="dot showing" onclick="dot_click()" id="0"></li>
+      <li class="dot" onclick="dot_click()" id="1"></li>
+      <li class="dot" onclick="dot_click()" id="2"></li>
+      <li class="dot" onclick="dot_click()" id="3"></li>
+    </ul>
+</div>
+<footer class = 'main_footer'>
+    <div class = "footer_info">
+        <div class = 'contact_info'>
+            <h5>
+                Контакты старосты:
+            </h5>
+            <div>
+                <p>номер телефона: 8-967-182-70-39</p>
+                <p>почта: akimkina.maria@bk.ru</p>
+                <p>Акимкина Мария Александровна</p>
+            </div>
+        </div>
+        <div class = 'social'>
+            <a class = 'social_item' href=""><img src = 'https://cdn-icons-png.flaticon.com/512/2111/2111646.png'></a>
+            <a class = 'social_item' href=""><img src = 'https://cdn-icons-png.flaticon.com/512/145/145813.png'></a>
+            <a class = 'social_item' href=""><img src = 'img/instagram.png'></a>
+        </div>
+    </div>
+</footer>
+</body>
+<script src="js/slider.js"></script>
+</html>

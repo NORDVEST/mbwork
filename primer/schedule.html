@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <style type="text/css">
+        @import url(css/header_footer.css);
+        @import url(css/schedule.css);
+    </style>
+    <link id="u-theme-google-font" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i|Open+Sans:300,300i,400,400i,500,500i,600,600i,700,700i,800,800i">
+    <title>Актуальное расписание</title>
+    <meta charset="UTF-8">
+</head>
+<body>
+<section class = 'main_header'>
+    <div class = 'main_container'>
+        <div class = 'header_wrapper'>
+            <div class = 'logo'>
+                <p>Группа 207</p>
+            </div>
+            <ul class = 'navigation'>
+                <li class="nav_item"><a href="main.html">Главная</a></li>
+                <li class="nav_item"><a style="color:#478ac9 !important">Актуальное расписание</a></li>
+                <li class="nav_item"><a href="materials.html">Учебно-методические материалы</a></li>
+            </ul>
+        </div>
+    </div>
+</section>
+<section class = "schedule_body">
+    <div class = 'schedule_wrapper'>
+        <ul class = 'buttons'>
+            <li class = 'active' id='button1'><a>Четная неделя</a></li>
+            <li onclick="changeTable()" id='button2'><a>Нечетная неделя</a></li>
+        </ul>
+        <table class="table" id = 'table1'>
+            <tbody>
+                <tr class = 'day_name'>
+                    <td></td>
+                    <td></td>
+                    <td>Понедельник</td>
+                    <td></td>
+                    <td>Вторник</td>
+                    <td></td>
+                    <td>Среда</td>
+                    <td></td>
+                    <td>Четверг</td>
+                    <td></td>
+                    <td>Пятница</td>
+                </tr>
+                <tr>
+                    <td class = 'time'>9:00-<br>10:35</td>
+                    <td>12<br>/<br>129</td>
+                    <td>пр. Теория систем и системный анализ </td>
+                    <td></td>
+                    <td/</td>
+                    <td></td>
+                    <td></td>
+                    <td>on<br>li<br>ne</td>
+                    <td>лек. Мат. статистика</td>
+                    <td>1<br>/<br>201</td>
+                    <td>пр. Веб-технологии и интернет вещей</td>
+                </tr>
+                <tr>
+                    <td class = 'time'>10:55-<br>12:30</td>
+                    <td>2<br>/<br>206</td>
+                    <td>пр. Комплексный анализ хоз. деятельности</td>
+                    <td></td>
+                    <td></td>
+                    <td>1<br>/<br>201</td>
+                    <td>пр. Веб-технологии и интернет вещей</td>
+                    <td>on<br>li<br>ne</td>
+                    <td>лек. Теория систем и системный анализ </td>
+                    <td>12<br>/<br>129</td>
+                    <td>пр. Мат.статистика </td>
+                </tr>
+                <tr>
+                    <td class = 'time'>13:00-<br>14:35</td>
+                    <td>12<br>/<br>129</td>
+                    <td>пр. Базы данных</td>
+                    <td>on<br>li<br>ne</td>
+                    <td>пр. Обработка данных в среде R</td>
+                    <td>СК</td>
+                    <td>Физкультура</td>
+                    <td>on<br>li<br>ne</td>
+                    <td>лек. Базы данных</td>
+                    <td>СК</td>
+                    <td>Физкультура</td>
+                </tr>
+                <tr>
+                    <td class = 'time'>14:55-<br>16:30</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td>on<br>li<br>ne</td>
+                    <td>лек. ​Комплексный анализ хоз. деятельности</td>
+                    <td>12<br>/<br>129</td>
+                    <td>пр. Архитектура предприятия АПК</td>
+                </tr>
+                <tr>
+                    <td class = 'time'>16:50-<br>18:25</td>
+                    <td class = 'last'></td>
+                    <td class = 'last'></td>
+                    <td class = 'last'></td>
+                    <td class = 'last'></td>
+                    <td class = 'last'></td>
+                    <td class = 'last'></td>
+                    <td class = 'last'>on<br>li<br>ne</td>
+                    <td class = 'last'>лек. Веб-технологии и интернет вещей</td>
+                    <td class = 'last'></td>
+                    <td class = 'last'></td>
+                </tr>
+            </tbody>
+        </table>
+        <table class="table" id = 'table2' style="display:none">
+            <tbody>
+                <tr class = 'day_name'>
+                    <td></td>
+                    <td></td>
+                    <td>Понедельник</td>
+                    <td></td>
+                    <td>Вторник</td>
+                    <td></td>
+                    <td>Среда</td>
+                    <td></td>
+                    <td>Четверг</td>
+                    <td></td>
+                    <td>Пятница</td>
+                </tr>
+                <tr>
+                    <td class = 'time'>9:00-<br>10:35</td>
+                    <td>12<br>/<br>129</td>
+                    <td>пр. Теория систем и системный анализ </td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td>on<br>li<br>ne</td>
+                    <td>лек. Мат. статистика</td>
+                    <td>1<br>/<br>201</td>
+                    <td>пр. Веб-технологии и интернет вещей</td>
+                </tr>
+                <tr>
+                    <td class = 'time'>10:55-<br>12:30</td>
+                    <td></td>
+                    <td></td>
+                    <td>on<br>li<br>ne</td>
+                    <td>лек. Обработка данных в среде R</td>
+                    <td>1<br>/<br>201</td>
+                    <td>пр. Веб-технологии и интернет вещей</td>
+                    <td>on<br>li<br>ne</td>
+                    <td>лек. Теория систем и системный анализ </td>
+                    <td>12<br>/<br>129</td>
+                    <td>пр. Мат.статистика </td>
+                </tr>
+                <tr>
+                    <td class = 'time'>13:00-<br>14:35</td>
+                    <td>12<br>/<br>129</td>
+                    <td>пр. Базы данных</td>
+                    <td>on<br>li<br>ne</td>
+                    <td>пр. Обработка данных в среде R</td>
+                    <td>СК</td>
+                    <td>Физкультура</td>
+                    <td>on<br>li<br>ne</td>
+                    <td>лек. Базы данных</td>
+                    <td>СК</td>
+                    <td>Физкультура</td>
+                </tr>
+                <tr>
+                    <td class = 'time'>14:55-<br>16:30</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td>2<br>/<br>206</td>
+                    <td>пр. Комплексный анализ хоз. деятельности </td>
+                    <td>on<br>li<br>ne</td>
+                    <td>лек. Архитектура предприятия АПК</td>
+                    <td>12<br>/<br>129</td>
+                    <td>пр. Архитектура предприятия АПК</td>
+                </tr>
+                <tr>
+                    <td class = 'time'>16:50-<br>18:25</td>
+                    <td class = 'last'></td>
+                    <td class = 'last'></td>
+                    <td class = 'last'></td>
+                    <td class = 'last'></td>
+                    <td class = 'last'></td>
+                    <td class = 'last'></td>
+                    <td class = 'last'>on<br>li<br>ne</td>
+                    <td class = 'last'>лек. Веб-технологии и интернет вещей</td>
+                    <td class = 'last'></td>
+                    <td class = 'last'></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</section>
+<footer class = 'main_footer'>
+    <div class = "footer_info">
+        <div class = 'contact_info'>
+            <h5>
+                Контакты старосты:
+            </h5>
+            <div>
+                <p>номер телефона: 8-967-182-70-39</p>
+                <p>почта: akimkina.maria@bk.ru</p>
+                <p>Акимкина Мария Александровна</p>
+            </div>
+        </div>
+        <div class = 'social'>
+            <a class = 'social_item' href=""><img src = 'https://cdn-icons-png.flaticon.com/512/2111/2111646.png'></a>
+            <a class = 'social_item' href=""><img src = 'https://cdn-icons-png.flaticon.com/512/145/145813.png'></a>
+            <a class = 'social_item' href=""><img src = 'img/instagram.png'></a>
+        </div>
+    </div>
+</footer>
+</body>
+<script src = 'js/tables.js'></script>
+</html>
