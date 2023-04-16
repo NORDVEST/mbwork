@@ -1,58 +1,52 @@
     body {
-        font-family: Inter;
-        background-color: #ECEDF1;
-        overflow-x: hidden; 
-    }
+  font-family: Inter;
+  background-color: #ECEDF1;
+  overflow-x: hidden; 
+}
 
-    table{
-        background-color: #FDFAF5;
-        border-radius: 6px;
-    }
+table{
+  background-color: #FDFAF5;
+  border-radius: 6px;
+}
 
-    .footerdark{
-        margin-top: 5%;
-        margin-left: -3%;
-        width: 110%;
-        position: absolute;
-        background: black;
-    }
+.footerdark{
+  background: black;
+}
 
-    .mailemail{
-        margin-left: 10%;
-        font-family: 'Inter';
-        font-style: normal;
-        font-weight: 600;
-        font-size: 48px;
-        line-height: 58px;
-        color: #FFFFFF;
-    }
+.mailemail{
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 58px;
+  color: #FFFFFF;
+}
 
-    .svyaz{
-        margin-left: -30%;
-        background: #FFFFFF;
-        border-radius: 10px;
-        width: 245px;
-        height: 62px;
-        font-family: 'Inter';
-        font-style: normal;
-        font-weight: 700;
-        font-size: 21px;
-        line-height: 25px;
-        color: #002033;
-    }
+.svyaz{
+  background: #FFFFFF;
+  border-radius: 10px;
+  width: 245px;
+  height: 62px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 21px;
+  line-height: 25px;
+  color: #002033;
+}
 
-    .buttonvktg{
-        background: #FFFFFF;
-        border-radius: 10px;
-        width: 77px;
-        height: 77px;
-        font-family: 'Inter';
-        font-style: normal;
-        font-weight: 600;
-        font-size: 28px;
-        line-height: 34px;
-        color: #000000;
-    }
+.buttonvktg{
+  background: #FFFFFF;
+  border-radius: 10px;
+  width: 70px;
+  height: 70px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 34px;
+  color: #000000;
+}
 
     .backcolor{
         background: #F5F5F5;
